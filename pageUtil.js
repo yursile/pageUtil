@@ -8,7 +8,7 @@ pageUtil.prototype.response = function(selector){
     return this;
 }
 pageUtil.prototype.rotate = function(){
-	this.ele["style"]["cssText"] = "width: "+1136+"px;height: "+640+"px;transform:rotate(90deg) translate(-50%,-50%);"+
-	"transform-origin:0 0; position: absolute; top: 50%; left: 50%;"
+	this.ele["style"]["cssText"] = "width: "+1136+"px;height: "+640+"px;-webkit-transform:rotate(90deg) translate(-50%,-50%);"+
+	"-webkit-transform-origin:0 0; position: absolute; top: 50%; left: 50%;"
 	return this;
 }
